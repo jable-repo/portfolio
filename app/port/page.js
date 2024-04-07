@@ -8,8 +8,7 @@ export default function Home() {
     <main>
       <div className={styles.resume_subject}>
         <h3>
-          React/NodeJS/NestJS/React Native/C++/MFC/Visual
-          C++/C#/MSSQL/MYSQL/Postgresql/HTS/BITCOIN
+        R&D/ Battery module technology/ Material development
         </h3>
       </div>
 
@@ -17,7 +16,7 @@ export default function Home() {
         <div className={styles.image_margin}>
           <Image
             className={styles.myimage}
-            src="/profile/my.png"
+            src="/profile/강경민.jpg"
             width={150}
             height={150}
             alt="Picture of the author"
@@ -25,17 +24,17 @@ export default function Home() {
         </div>
         <div className={styles.image_left}>
           <div className={styles.image_test}>
-            <div className={styles.profile_info_general_name}>노기정</div>
+            <div className={styles.profile_info_general_name}> 강경민</div>
             <div className={styles.profile_info_general_year}>
-              남 1979년 (만 45세)
+              남 1994년 (만 29세)
             </div>
           </div>
           <div className={styles.profile_info_detail}>
-            <div class={styles.profile_label}>휴대폰 | 010-7217-8550</div>
-            <div class={styles.profile_label}>Email | fusionsoft@naver.com</div>
-            <div class={styles.profile_label}>전화번호 | 02-000-0000</div>
+            <div class={styles.profile_label}>휴대폰 | 010-3214-6107</div>
+            <div class={styles.profile_label}>Email | kgm@asung.co.kr</div>
+            <div class={styles.profile_label}>전화번호 | 031-831-1699</div>
             <div class={styles.profile_label}>
-              주소 | 서울 광진구 중곡4동 102번지 37호
+              주소 | 경기도 화성시 우정읍 한말길 38-6
             </div>
           </div>
         </div>
@@ -44,19 +43,18 @@ export default function Home() {
         <div className={styles.grid_container}>
           <div>
             <div className={styles.grid_item}>학력</div>
-            <div className={styles.grid_item}>조선대 </div>
+            <div className={styles.grid_item}>가천대 </div>
             <div className={styles.grid_item}>
               <div>대학교(4년)</div>
-              <div>졸업</div>
+              <div>재학중</div>
             </div>
           </div>
 
           <div>
             <div className={styles.grid_item}>경력</div>
-            <div className={styles.grid_item}>케이바이러스연구소</div>
+            <div className={styles.grid_item}>아성프라텍</div>
             <div className={styles.grid_item}>
-              <div>퇴사</div>
-              <div>총 18년 1개월</div>
+              <div>1년 6개월</div>
             </div>
           </div>
 
@@ -69,45 +67,18 @@ export default function Home() {
 
           <div>
             <div className={styles.grid_item}>자격증 / 어학</div>
-            <div className={styles.grid_item}>정보처리기사</div>
-            <div className={styles.grid_item}>영어-회화가능</div>
+            <div className={styles.grid_item}>지게차운전기능사, 초경량 비행장치 1종 자격</div>
+            <div className={styles.grid_item}>TOEIC 930, 영어 회화 가능</div>
           </div>
         </div>
       </section>
       <section>
         <div className={styles.keyword_box}>
-          <Link href="https://dotnet.microsoft.com/en-us/languages/csharp">
+          <Link href="http://www.asung.co.kr/">
             <button type="button" className={styles.list_btn}>
-              <span className={styles.btn_gap}>C#</span>
+              <span className={styles.btn_gap}>Asung Platech Co.</span>
             </button>
           </Link>
-
-          <Link href="https://dotnet.microsoft.com/en-us/languages/csharp">
-            <button type="button" className={styles.list_btn}>
-              <span className={styles.btn_gap}>Node.js</span>
-            </button>
-          </Link>
-          <button type="button" className={styles.list_btn}>
-            <span className={styles.btn_gap}>React</span>
-          </button>
-          <button type="button" className={styles.list_btn}>
-            <span className={styles.btn_gap}>ReactJS</span>
-          </button>
-          <button type="button" className={styles.list_btn}>
-            <span className={styles.btn_gap}>MSSQL</span>
-          </button>
-          <button type="button" className={styles.list_btn}>
-            <span className={styles.btn_gap}>MySQL</span>
-          </button>
-          <button type="button" className={styles.list_btn}>
-            <span className={styles.btn_gap}>VIsualC·C++</span>
-          </button>
-          <button type="button" className={styles.list_btn}>
-            <span className={styles.btn_gap}>PostgreSQL</span>
-          </button>
-          <button type="button" className={styles.list_btn}>
-            <span className={styles.btn_gap}>React Native</span>
-          </button>
         </div>
       </section>
       <section>
@@ -115,19 +86,19 @@ export default function Home() {
         <div className={styles.school_title_grid_margin}>
           <div className={styles.school_title_grid}>
             <div>
-              <div>1997. 03 ~ 2004. 02</div>
-              <div>졸업</div>
+              <div>2022. 03 ~</div>
+              <div>재학중</div>
             </div>
             <div>
               <div>
-                <div>조선대 </div>
-                <div>컴퓨터공</div>
+                <div>가천대 </div>
+                <div>미래자동차공학과</div>
               </div>
               <div>
                 <div>
                   <div>
                     <div>학점</div>
-                    <div>3.95 / 4.5</div>
+                    <div>3.9 / 4.5</div>
                   </div>
                 </div>
               </div>
@@ -135,12 +106,12 @@ export default function Home() {
           </div>
           <div className={styles.school_title_grid}>
             <div>
-              <div>1997</div>
+              <div>2013</div>
               <div>졸업 </div>
             </div>
             <div>
               <div>
-                <div>전남고등학교 </div>
+                <div>분당대진고등학교 </div>
                 <div></div>
               </div>
             </div>

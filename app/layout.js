@@ -4,8 +4,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "이력서",
-  description: "노기정의 이력을 소개합니다",
+  title: "강경민 이력서",
+  description: "강경민의 이력을 소개합니다",
 };
 
 export default function RootLayout({ children }) {
